@@ -1,6 +1,5 @@
 from flask import Flask, request, render_template
 
-
 app = Flask("__name__")
 
 @app.route('/')
@@ -19,13 +18,13 @@ def submit():
     lastAppoint = request.form['lastAppoint']
 
     return f"""
-        Ηλικία: {age}<br>
-        Αλκοόλ: {alcohol}<br>
-        Δίαιτα: {diet}<br>
-        Σωματική Δραστηριότητα: {phys_act}<br>
-        Καπνίσμα: {smoking}<br>
-        Φύλο: {gender}<br>
-        Τελευταία Επίσκεψη: {lastAppoint}
+        Age: {age}<br>
+        Alcohol: {alcohol}<br>
+        Diet: {diet}<br>
+        Physical activity: {phys_act}<br>
+        Smoking: {smoking}<br>
+        Gender: {gender}<br>
+        Last apointment: {lastAppoint}
     """
 
 if __name__ == '__main__':
