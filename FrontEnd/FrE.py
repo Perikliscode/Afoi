@@ -1,5 +1,5 @@
 from flask import Flask, request, render_template
-
+from BackEnd import BkE
 app = Flask("__name__")
 
 @app.route('/')
@@ -17,15 +17,7 @@ def submit():
     gender = request.form['gender']
     lastAppoint = request.form['lastAppoint']
 
-    return f"""
-        Age: {age}<br>
-        Alcohol: {alcohol}<br>
-        Diet: {diet}<br>
-        Physical activity: {phys_act}<br>
-        Smoking: {smoking}<br>
-        Gender: {gender}<br>
-        Last apointment: {lastAppoint}
-    """
+    return render_template('response.html',Response = BkE.prognosis(age,alcohol,diet,phys_act,smoking,gender,lastAppoint))
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80)

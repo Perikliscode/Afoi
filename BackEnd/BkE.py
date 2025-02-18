@@ -10,10 +10,10 @@ def prognosis(age,alcohol,diet,phys_act,smoking,gender,lastAppoint):
     with open("BackEnd/data.txt", "w+") as file:
         file.write("User Cancer risk factors:\n")
         file.write("age="+str(age)+"\n")
-        file.write("alcohol="+str(alcohol)+" (0=none,1=little,2=regularly,3=everyday)\n")
-        file.write("diet="+str(diet)+" (0=excelent,1=okay,2=bad,3=very bad)\n")
-        file.write("phys_act="+str(phys_act)+" (0=everyday,1=regularly,2=little,3=none)\n")
-        file.write("smoking="+str(smoking)+" (0=none,1=little,2=regularly,3=everyday)\n")
+        file.write("alcohol="+alcohol+" (none,little,regularly,everyday)\n")
+        file.write("diet="+diet+" (excelent,okay,bad,very bad)\n")
+        file.write("phys_act="+phys_act+" (everyday,regularly,little,none)\n")
+        file.write("smoking="+smoking+" (none,little,regularly,everyday)\n")
         file.write("gender="+gender+"\n")
         file.write("Last appointment:"+str(lastAppoint))
         file.seek(0)
@@ -29,6 +29,7 @@ def prognosis(age,alcohol,diet,phys_act,smoking,gender,lastAppoint):
     Now, based on the folloing information given, please answer (Do not repeat the information the user gave)
     {file_contentData}
     {file_contentAppoint}
+    In bullet points and multiline
     """
 
     response = client.chat.completions.create(messages=[{"role":"user","content":promt}],model="gpt-4o-mini",temperature=0.0,max_tokens=1000)
@@ -36,4 +37,3 @@ def prognosis(age,alcohol,diet,phys_act,smoking,gender,lastAppoint):
     response = response.choices[0].message.content
 
     return response
-

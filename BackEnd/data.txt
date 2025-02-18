@@ -1,8 +1,8 @@
 User Cancer risk factors:
-age=20
-alcohol=0 (0=none,1=little,2=regularly,3=everyday)
-diet=0 (0=excelent,1=okay,2=bad,3=very bad)
-phys_act=0 (0=everyday,1=regularly,2=little,3=none)
-smoking=0 (0=none,1=little,2=regularly,3=everyday)
+age=50
+alcohol=regularly (none,little,regularly,everyday)
+diet=Bad (excelent,okay,bad,very bad)
+phys_act=little (everyday,regularly,little,none)
+smoking=little (none,little,regularly,everyday)
 gender=male
-Last appointment:2/10/2025
+Last appointment:2/10/20

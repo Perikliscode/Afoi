@@ -1,13 +1,20 @@
-<html>
-<!--head etc-->
+<!DOCTYPE html>
+<html lang="en">
 <body>
-  <title>Heath Assistant</title>
-  <h1>Health Assistant Joe</h1>
-  <p>Enter your information so I can make an approximation of your cancer risk concerning</p>
+  <meta charset="UTF-8">
+  <title>Heath CareAssistant</title>
+  <h1>Health Care Assistant Diogee</h1>
+  <h2>Would you like to know about your health status quickly?</h2>
+  <h3>Enter your information so I can make an approximation of your cancer risk.<br>Also I will suggest when your next appointment should be.</h3>
 
   <form action="/submit" method="POST">
+    <style>
+      body{
+        font-family: Arial, sans-serif;
+      }
+    </style>
     <label for="age">Age:</label>
-    <input type="number" id="age" name="age" required><br><br>
+    <input type="number" id="age" min="1" name="age" required><br><br>
     
     <label for="alcohol">How often do you drink alcohol?</label><br>
     <input type="radio" id="alcohol_none" name="alcohol" value="none" required> None
