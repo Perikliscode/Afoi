@@ -1,0 +1,9 @@
+Visit standards
+	Testing options	Normal risk age range	High risk age range*	Usual frequency
+Colon and rectal cancer	Colonoscopy	45-75 years old	40-75 years old	Every 10 years
+FIT stool test**	45-75 years old	Not applicable	Yearly
+Breast cancer (females only)	Mammogram	40-74 years old	Before 40 years old	Every 1-2 years
+Cervical cancer (females only)	Pap test	21-65 years old	21-65 years old	Every 3 years
+Pap test + HPV	30-65 years old	30-65 years old	Every 5 years
+Lung cancer	Low-dose CT scan	Not applicable	50-80 years old	Yearly
+Prostate cancer (males only)	Possible PSA blood test	45-75 years old	40-75 years old	Every 2-3 years
