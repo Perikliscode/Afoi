@@ -9,7 +9,7 @@ Aggelos Pantelaios
  docker pull alpine
  docker build -t diogee .
  docker run -p 80:80 diogee
--Open in browser http//localhost:80 (or the address that shows up in terminal)
+-Open in browser http://localhost:80 (or the address that shows up in terminal)
 
 Concept and features:
  Diogee is an AI assistant which helps the user understand in seconds his health status
