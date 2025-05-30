@@ -4,7 +4,7 @@ Periklis Pantelaios
 Aggelos Pantelaios
 (AI name:Diogee, model:gpt-4o-mini)
 
-**It does not run anymore because the model's key has expired
+**The app does not run anymore because the model's key has expired
 
 (*TO RUN APPLICATION
 -Docker must be running
