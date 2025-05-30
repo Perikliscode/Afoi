@@ -1,9 +1,12 @@
+Netcompany Hackathon challenge 2025
 # Afoi Pantelaioi
 Periklis Pantelaios
 Aggelos Pantelaios
 (AI name:Diogee, model:gpt-4o-mini)
 
-*TO RUN APPLICATION
+**It does not run anymore because the model's key has expired
+
+(*TO RUN APPLICATION
 -Docker must be running
 -Run commands in terminal:
  docker pull alpine
@@ -25,4 +28,4 @@ Concept and features:
  
  The 'submit' button gives the AI the user's information from the form and moves the
  user to the response page. The 'Return to form' button moves the user to the initial page
- where he can repeat the process.
+ where he can repeat the process.)
