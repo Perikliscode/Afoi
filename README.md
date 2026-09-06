@@ -20,7 +20,7 @@ Concept and features:
  the cancer risk factors are ready to be given in the program, in a form and it requires
  no research for the user.
 
- AI makes a response based on the information the user put,
+ AI makes a response based on the information the user input,
  which includes an approximate concern for cancer about the user, advice on how to lower
  the risk of cancer and it combines the last doctor appointment of the user and the 
  doctor visit standards to suggest when his next appointment should be. In the end it
